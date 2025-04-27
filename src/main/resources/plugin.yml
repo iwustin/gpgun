@@ -1,0 +1,13 @@
+name: gpgun
+version: '2025-04-26'
+main: iwust.gpgun.Gpgun
+api-version: '1.21'
+load: STARTUP
+authors: [ iwust ]
+commands:
+  menu:
+    description: "Opens menu gui."
+  items:
+    description: "Opens items gui."
+  s_config: # to delete
+    description: "TEST COMMAND" # to delete

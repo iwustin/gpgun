@@ -1,0 +1,239 @@
+items:
+  - type: "common"
+    id: "5_45x39"
+    material: "feather"
+    custom_name: "<gold>5.45x39 Ammo"
+    item_model: ""
+    max_stack_size: 32
+    display_name: "5.45x39 Ammo"
+  - type: "magazine"
+    id: "ak_74_magazine"
+    material: "feather"
+    custom_name: "<gold>AK-74 Magazine"
+    item_model: ""
+    use_delay: 0.2
+    display_name: "AK-74 Magazine"
+    ammo_id: "5_45x39"
+    display_ammo_name: "<gray>Ammo Type: <aqua>%s"
+    display_ammo_amount: "<gray>Ammo Count: <aqua>%d<gray>/<aqua>%d"
+    display_ammo_unload: "<yellow>[Q] <gray>Remove Ammo"
+    unload_sound: ""
+    load_sound: ""
+    max_ammo: 30
+    ammo: 30
+  - type: "magazine_gun"
+    id: "aks_74u"
+    material: "stone_sword"
+    custom_name: "<gold>AKS-74U Rifle"
+    item_model: ""
+    equip_delay: 2.5
+    ammo_id: "ak_74_magazine"
+    display_ammo_name: "<gray>Magazine Type: <aqua>%s"
+    display_ammo_state: "<gray>Loaded: %s"
+    display_ammo_unload: "<yellow>[Q] <gray>Detach Magazine"
+    display_ammo_state_yes: "<green>Yes"
+    display_ammo_state_no: "<red>No"
+    shot_sound: ""
+    load_sound: ""
+    unload_sound: ""
+    max_ammo: 30
+    ammo: 30
+    spread: 10.0
+    velocity: 20.0
+    shot_delay: 0.13
+    bullet_amount: 1
+    bullet_damage: 2.0
+    without_item_model: ""
+    max_damage: 600
+    scope: 2
+    item_model_scope: ""
+    without_item_model_scope: ""
+  - type: "common"
+    id: "12x60"
+    material: "feather"
+    custom_name: "<gold>12x60 Ammo"
+    item_model: ""
+    max_stack_size: 8
+    display_name: "12x60 Ammo"
+  - type: "magazine"
+    id: "mag_7_magazine"
+    material: "feather"
+    custom_name: "<gold>MAG-7 Magazine"
+    item_model: ""
+    use_delay: 0.2
+    display_name: "MAG-7 Magazine"
+    ammo_id: "12x60"
+    display_ammo_name: "<gray>Ammo Type: <aqua>%s"
+    display_ammo_amount: "<gray>Ammo Count: <aqua>%d<gray>/<aqua>%d"
+    display_ammo_unload: "<yellow>[Q] <gray>Remove Ammo"
+    unload_sound: ""
+    load_sound: ""
+    max_ammo: 5
+    ammo: 5
+  - type: "magazine_gun"
+    id: "mag_7"
+    material: "stone_sword"
+    custom_name: "<gold>MAG-7 Shotgun"
+    item_model: ""
+    equip_delay: 3.5
+    ammo_id: "mag_7_magazine"
+    display_ammo_name: "<gray>Magazine Type: <aqua>%s"
+    display_ammo_state: "<gray>Loaded: %s"
+    display_ammo_unload: "<yellow>[Q] <gray>Detach Magazine"
+    display_ammo_state_yes: "<green>Yes"
+    display_ammo_state_no: "<red>No"
+    shot_sound: ""
+    load_sound: ""
+    unload_sound: ""
+    max_ammo: 5
+    ammo: 5
+    spread: 6.0
+    velocity: 2.0
+    shot_delay: 0.75
+    bullet_amount: 7
+    bullet_damage: 1.0
+    without_item_model: ""
+    max_damage: 600
+    scope: 2
+    item_model_scope: ""
+    without_item_model_scope: ""
+  - type: "common"
+    id: "44_magnum"
+    material: "feather"
+    custom_name: "<gold>.44 Magnum Ammo"
+    item_model: ""
+    max_stack_size: 16
+    display_name: ".44 Magnum Ammo"
+  - type: "gun"
+    id: "colt_anaconda"
+    material: "stone_sword"
+    custom_name: "<gold>Colt Anaconda Pistol"
+    item_model: ""
+    equip_delay: 1.0
+    ammo_id: "44_magnum"
+    display_ammo_name: "<gray>Ammo Type: <aqua>%s"
+    display_ammo_amount: "<gray>Ammo Count: <aqua>%d<gray>/<aqua>%d"
+    display_ammo_unload: "<yellow>[Q] <gray>Remove Ammo"
+    shot_sound: ""
+    load_sound: ""
+    unload_sound: ""
+    max_ammo: 6
+    ammo: 6
+    spread: 2.0
+    velocity: 5.0
+    shot_delay: 0.75
+    bullet_amount: 1
+    bullet_damage: 6.0
+    max_damage: 600
+    scope: 2
+    item_model_scope: ""
+  - type: "common"
+    id: "9x39"
+    material: "feather"
+    custom_name: "<gold>9x39 Ammo"
+    item_model: ""
+    max_stack_size: 32
+    display_name: "9x39 Ammo"
+  - type: "magazine"
+    id: "hk_mp7_magazine"
+    material: "feather"
+    custom_name: "<gold>HK-MP7 Magazine"
+    item_model: ""
+    use_delay: 0.1
+    display_name: "HK-MP7 Magazine"
+    ammo_id: "9x39"
+    display_ammo_name: "<gray>Ammo Type: <aqua>%s"
+    display_ammo_amount: "<gray>Ammo Count: <aqua>%d<gray>/<aqua>%d"
+    display_ammo_unload: "<yellow>[Q] <gray>Remove Ammo"
+    unload_sound: ""
+    load_sound: ""
+    max_ammo: 30
+    ammo: 30
+  - type: "magazine_gun"
+    id: "hk_mp7"
+    material: "stone_sword"
+    custom_name: "<gold>HK-MP7 Submachine Gun"
+    item_model: ""
+    equip_delay: 1.5
+    ammo_id: "hk_mp7_magazine"
+    display_ammo_name: "<gray>Magazine Type: <aqua>%s"
+    display_ammo_state: "<gray>Loaded: %s"
+    display_ammo_unload: "<yellow>[Q] <gray>Detach Magazine"
+    display_ammo_state_yes: "<green>Yes"
+    display_ammo_state_no: "<red>No"
+    shot_sound: ""
+    load_sound: ""
+    unload_sound: ""
+    max_ammo: 30
+    ammo: 30
+    spread: 6.0
+    velocity: 4.0
+    shot_delay: 0.05
+    bullet_amount: 1
+    bullet_damage: 1
+    without_item_model: ""
+    max_damage: 300
+    scope: 2
+    item_model_scope: ""
+    without_item_model_scope: ""
+  - type: "common"
+    id: "5_7x28"
+    material: "feather"
+    custom_name: "<gold>5.7x28 Ammo"
+    item_model: ""
+    max_stack_size: 32
+    display_name: "5.7x28 Ammo"
+  - type: "magazine"
+    id: "five_seven_magazine"
+    material: "feather"
+    custom_name: "<gold>Five-Seven Magazine"
+    item_model: ""
+    use_delay: 0.1
+    display_name: "Five-Seven Magazine"
+    ammo_id: "5_7x28"
+    display_ammo_name: "<gray>Ammo Type: <aqua>%s"
+    display_ammo_amount: "<gray>Ammo Count: <aqua>%d<gray>/<aqua>%d"
+    display_ammo_unload: "<yellow>[Q] <gray>Remove Ammo"
+    unload_sound: ""
+    load_sound: ""
+    max_ammo: 15
+    ammo: 15
+  - type: "magazine_gun"
+    id: "five_seven"
+    material: "stone_sword"
+    custom_name: "<gold>Five-Seven Pistol"
+    item_model: ""
+    equip_delay: 1.0
+    ammo_id: "five_seven_magazine"
+    display_ammo_name: "<gray>Magazine Type: <aqua>%s"
+    display_ammo_state: "<gray>Loaded: %s"
+    display_ammo_unload: "<yellow>[Q] <gray>Detach Magazine"
+    display_ammo_state_yes: "<green>Yes"
+    display_ammo_state_no: "<red>No"
+    shot_sound: ""
+    load_sound: ""
+    unload_sound: ""
+    max_ammo: 15
+    ammo: 15
+    spread: 5.0
+    velocity: 4.0
+    shot_delay: 0.5
+    bullet_amount: 1
+    bullet_damage: 5.0
+    without_item_model: ""
+    max_damage: 300
+    scope: 2
+    item_model_scope: ""
+    without_item_model_scope: ""
+sounds:
+  block_hit:
+    canvas: ""
+    dirt: ""
+    foliage: ""
+    glass: ""
+    masonry: ""
+    metal: ""
+    snow: ""
+    stone: ""
+    water: ""
+    wood: ""
