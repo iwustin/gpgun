@@ -2,6 +2,8 @@
 
 **Aliases**: horrible code, non-style, vibe-coding.
 
+**MIT License**
+
 ```
 PaperMC
 Java 21
