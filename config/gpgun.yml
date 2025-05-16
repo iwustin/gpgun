@@ -66,8 +66,8 @@ items:
     display_ammo_name: "<gray>Тип патрона: <aqua>%s"
     display_ammo_amount: "<gray>Кол-во патронов: <aqua>%d<gray>/<aqua>%d"
     display_ammo_unload: "<yellow>[Q] <gray>Извлечь патрон"
-    load_sound: "gun.mag_7.load"
-    unload_sound: "gun.mag_7.unload"
+    load_sound: "gun.switch"
+    unload_sound: "gun.switch"
     max_ammo: 5
     ammo: 5
   - type: "magazine_gun"
@@ -115,8 +115,8 @@ items:
     display_ammo_name: "<gray>Тип патрона: <aqua>%s"
     display_ammo_amount: "<gray>Кол-во патронов: <aqua>%d<gray>/<aqua>%d"
     display_ammo_unload: "<yellow>[Q] <gray>Извлечь патрон"
-    load_sound: "gun.hk_mp7.load"
-    unload_sound: "gun.hk_mp7.unload"
+    load_sound: "gun.switch"
+    unload_sound: "gun.switch"
     max_ammo: 1000
     ammo: 1000
   - type: "magazine_gun"
@@ -164,8 +164,8 @@ items:
     display_ammo_name: "<gray>Тип патрона: <aqua>%s"
     display_ammo_amount: "<gray>Кол-во патронов: <aqua>%d<gray>/<aqua>%d"
     display_ammo_unload: "<yellow>[Q] <gray>Извлечь патрон"
-    load_sound: "gun.five_seven.load"
-    unload_sound: "gun.five_seven.unload"
+    load_sound: "gun.switch"
+    unload_sound: "gun.switch"
     max_ammo: 15
     ammo: 15
   - type: "magazine_gun"
@@ -228,7 +228,7 @@ items:
   - type: "magazine_gun"
     id: "mag_7_1"
     material: "stone_sword"
-    custom_name: "<gold>Дробовик MAG-7"
+    custom_name: "<gold>Дробовик MAG-7 (Тест 1)"
     item_model: "minecraft:item/gun/mag_7/base"
     equip_delay: 3.5
     ammo_id: "mag_7_magazine"
