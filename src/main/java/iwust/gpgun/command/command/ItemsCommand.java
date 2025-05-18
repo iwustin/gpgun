@@ -2,7 +2,7 @@ package iwust.gpgun.command.command;
 
 import iwust.gpgun.annotation.GpgunCommand;
 import iwust.gpgun.constant.Message;
-import iwust.gpgun.gui.items.ItemGui;
+import iwust.gpgun.gui.items.ItemsGui;
 import iwust.gpgun.item.ItemManager;
 import iwust.gpgun.util.PlayerUtil;
 
@@ -31,7 +31,7 @@ public final class ItemsCommand implements CommandExecutor, TabCompleter {
         }
 
         if(args.length == 0) {
-            ItemGui.open((Player) sender);
+            ItemsGui.open((Player) sender);
             return true;
         }
         if(args.length == 2) {

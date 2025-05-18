@@ -3,7 +3,7 @@ package iwust.gpgun.gui.menu;
 import iwust.gpgun.annotation.GpgunListener;
 import iwust.gpgun.constant.GuiId;
 import iwust.gpgun.constant.Key;
-import iwust.gpgun.gui.items.ItemGui;
+import iwust.gpgun.gui.items.ItemsGui;
 import iwust.gpgun.util.ItemStackUtil;
 
 import org.bukkit.entity.Player;
@@ -32,7 +32,7 @@ public final class MenuGuiListener implements Listener {
         switch (guiId) {
             case GuiId.ITEMS -> {
                 event.setCancelled(true);
-                ItemGui.open((Player) event.getWhoClicked());
+                ItemsGui.open((Player) event.getWhoClicked());
             }
         }
     }
