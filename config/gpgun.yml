@@ -1,0 +1,266 @@
+items:
+  - type: "common"
+    id: "5_45x39"
+    material: "feather"
+    custom_name: "<gold>Патрон 5.45x39"
+    item_model: "minecraft:item/common/5_45x39/base"
+    max_stack_size: 32
+    display_name: "5.45x39"
+  - type: "magazine"
+    id: "ak_47_magazine"
+    material: "feather"
+    custom_name: "<gold>Магазин АК-74"
+    item_model: "minecraft:item/magazine/ak_74/base"
+    use_delay: 0.5
+    display_name: "АК-74"
+    ammo_id: "5_45x39"
+    display_ammo_name: "<gray>Тип патрона: <aqua>%s"
+    display_ammo_amount: "<gray>Кол-во патронов: <aqua>%d<gray>/<aqua>%d"
+    display_ammo_unload: "<yellow>[Q] <gray>Извлечь патрон"
+    load_sound: "gun.switch"
+    unload_sound: "gun.switch"
+    max_ammo: 30
+    ammo: 30
+  - type: "magazine_gun"
+    id: "aks_74u"
+    material: "stone_sword"
+    custom_name: "<gold>Автомат АКС-74У"
+    item_model: "minecraft:item/gun/aks_74u/base"
+    equip_delay: 2.5
+    ammo_id: "ak_47_magazine"
+    display_ammo_name: "<gray>Тип магазина: <aqua>%s"
+    display_ammo_state: "<gray>Заряжен: %s"
+    display_ammo_unload: "<yellow>[Q] <gray>Отсоединить магазин"
+    display_ammo_state_yes: "<green>Да"
+    display_ammo_state_no: "<red>Нет"
+    shot_sound: "gun.aks_74u.shot"
+    load_sound: "gun.aks_74u.load"
+    unload_sound: "gun.aks_74u.unload"
+    max_ammo: 30
+    ammo: 30
+    spread: 6.0
+    velocity: 4.0
+    shot_delay: 0.1
+    bullet_amount: 1
+    bullet_damage: 2.0
+    without_item_model: "minecraft:item/gun/aks_74u/without"
+    item_model_scope: "minecraft:item/gun/aks_74u/base_scope"
+    without_item_model_scope: "minecraft:item/gun/aks_74u/without_scope"
+    max_damage: 300
+    scope: 2
+  - type: "common"
+    id: "12x60"
+    material: "feather"
+    custom_name: "<gold>Патрон 12x60"
+    item_model: "minecraft:item/common/12x60/base"
+    max_stack_size: 8
+    display_name: "12x60"
+  - type: "magazine"
+    id: "mag_7_magazine"
+    material: "feather"
+    custom_name: "<gold>Магазин MAG-7"
+    item_model: "minecraft:item/magazine/mag_7/base"
+    use_delay: 0.2
+    display_name: "MAG-7"
+    ammo_id: "12x60"
+    display_ammo_name: "<gray>Тип патрона: <aqua>%s"
+    display_ammo_amount: "<gray>Кол-во патронов: <aqua>%d<gray>/<aqua>%d"
+    display_ammo_unload: "<yellow>[Q] <gray>Извлечь патрон"
+    load_sound: "gun.switch"
+    unload_sound: "gun.switch"
+    max_ammo: 5
+    ammo: 5
+  - type: "magazine_gun"
+    id: "mag_7"
+    material: "stone_sword"
+    custom_name: "<gold>Дробовик MAG-7"
+    item_model: "minecraft:item/gun/mag_7/base"
+    equip_delay: 3.5
+    ammo_id: "mag_7_magazine"
+    display_ammo_name: "<gray>Тип магазина: <aqua>%s"
+    display_ammo_state: "<gray>Заряжен: %s"
+    display_ammo_unload: "<yellow>[Q] <gray>Отсоединить магазин"
+    display_ammo_state_yes: "<green>Да"
+    display_ammo_state_no: "<red>Нет"
+    shot_sound: "gun.mag_7.shot"
+    load_sound: "gun.mag_7.load"
+    unload_sound: "gun.mag_7.unload"
+    max_ammo: 5
+    ammo: 5
+    spread: 6.0
+    velocity: 2.0
+    shot_delay: 0.75
+    bullet_amount: 7
+    bullet_damage: 1.0
+    without_item_model: "minecraft:item/gun/mag_7/without"
+    item_model_scope: "minecraft:item/gun/mag_7/base_scope"
+    without_item_model_scope: "minecraft:item/gun/mag_7/without_scope"
+    max_damage: 600
+    scope: 2
+  - type: "common"
+    id: "9x39"
+    material: "feather"
+    custom_name: "<gold>Патрон 9x39"
+    item_model: "minecraft:item/common/9x39/base"
+    max_stack_size: 32
+    display_name: "9x39"
+  - type: "magazine"
+    id: "hk_mp7_magazine"
+    material: "feather"
+    custom_name: "<gold>Магазин HK-MP7"
+    item_model: "minecraft:item/magazine/hk_mp7/base"
+    use_delay: 0.1
+    display_name: "HK-MP7"
+    ammo_id: "9x39"
+    display_ammo_name: "<gray>Тип патрона: <aqua>%s"
+    display_ammo_amount: "<gray>Кол-во патронов: <aqua>%d<gray>/<aqua>%d"
+    display_ammo_unload: "<yellow>[Q] <gray>Извлечь патрон"
+    load_sound: "gun.switch"
+    unload_sound: "gun.switch"
+    max_ammo: 1000
+    ammo: 1000
+  - type: "magazine_gun"
+    id: "hk_mp7"
+    material: "stone_sword"
+    custom_name: "<gold>Пистолет-пулемет HK-MP7"
+    item_model: "minecraft:item/gun/hk_mp7/base"
+    equip_delay: 1.5
+    ammo_id: "hk_mp7_magazine"
+    display_ammo_name: "<gray>Тип магазина: <aqua>%s"
+    display_ammo_state: "<gray>Заряжен: %s"
+    display_ammo_unload: "<yellow>[Q] <gray>Отсоединить магазин"
+    display_ammo_state_yes: "<green>Да"
+    display_ammo_state_no: "<red>Нет"
+    shot_sound: "gun.hk_mp7.shot"
+    load_sound: "gun.hk_mp7.load"
+    unload_sound: "gun.hk_mp7.unload"
+    max_ammo: 1000
+    ammo: 1000
+    spread: 6.0
+    velocity: 4.0
+    shot_delay: 0.05
+    bullet_amount: 1
+    bullet_damage: 1.0
+    without_item_model: "minecraft:item/gun/hk_mp7/without"
+    item_model_scope: "minecraft:item/gun/hk_mp7/base_scope"
+    without_item_model_scope: "minecraft:item/gun/hk_mp7/without_scope"
+    max_damage: 300
+    scope: 2
+  - type: "common"
+    id: "5_7x28"
+    material: "feather"
+    custom_name: "<gold>Патрон 5.7x28"
+    item_model: "minecraft:item/common/5_7x28/base"
+    max_stack_size: 32
+    display_name: "5.7x28"
+  - type: "magazine"
+    id: "five_seven_magazine"
+    material: "feather"
+    custom_name: "<gold>Магазин Five-Seven"
+    item_model: "minecraft:item/magazine/five_seven/base"
+    use_delay: 0.1
+    display_name: "Five-Seven"
+    ammo_id: "5_7x28"
+    display_ammo_name: "<gray>Тип патрона: <aqua>%s"
+    display_ammo_amount: "<gray>Кол-во патронов: <aqua>%d<gray>/<aqua>%d"
+    display_ammo_unload: "<yellow>[Q] <gray>Извлечь патрон"
+    load_sound: "gun.switch"
+    unload_sound: "gun.switch"
+    max_ammo: 15
+    ammo: 15
+  - type: "magazine_gun"
+    id: "five_seven"
+    material: "stone_sword"
+    custom_name: "<gold>Пистолет Five-Seven"
+    item_model: "minecraft:item/gun/five_seven/base"
+    equip_delay: 1.0
+    ammo_id: "five_seven_magazine"
+    display_ammo_name: "<gray>Тип магазина: <aqua>%s"
+    display_ammo_state: "<gray>Заряжен: %s"
+    display_ammo_unload: "<yellow>[Q] <gray>Отсоединить магазин"
+    display_ammo_state_yes: "<green>Да"
+    display_ammo_state_no: "<red>Нет"
+    shot_sound: "gun.five_seven.shot"
+    load_sound: "gun.five_seven.load"
+    unload_sound: "gun.five_seven.unload"
+    max_ammo: 15
+    ammo: 15
+    spread: 5.0
+    velocity: 4.0
+    shot_delay: 0.5
+    bullet_amount: 1
+    bullet_damage: 5.0
+    without_item_model: "minecraft:item/gun/five_seven/without"
+    item_model_scope: "minecraft:item/gun/five_seven/base_scope"
+    without_item_model_scope: "minecraft:item/gun/five_seven/without_scope"
+    max_damage: 300
+    scope: 2
+  - type: "common"
+    id: "44_magnum"
+    material: "feather"
+    custom_name: "<gold>Патрон .44 Magnum"
+    item_model: "minecraft:item/common/44_magnum/base"
+    max_stack_size: 16
+    display_name: ".44 magnum"
+  - type: "gun"
+    id: "colt_anaconda"
+    material: "stone_sword"
+    custom_name: "<gold>Пистолет Colt-Anaconda"
+    item_model: "minecraft:item/gun/colt_anaconda/base"
+    equip_delay: 1.0
+    ammo_id: "44_magnum"
+    display_ammo_name: "<gray>Тип патрона: <aqua>%s"
+    display_ammo_amount: "<gray>Кол-во патронов: <aqua>%d<gray>/<aqua>%d"
+    display_ammo_unload: "<yellow>[Q] <gray>Достать патрон"
+    shot_sound: "gun.colt_anaconda.shot"
+    load_sound: "gun.colt_anaconda.load"
+    unload_sound: "gun.colt_anaconda.unload"
+    max_ammo: 6
+    ammo: 6
+    spread: 2.0
+    velocity: 5.0
+    shot_delay: 0.75
+    bullet_amount: 1
+    bullet_damage: 6.0
+    max_damage: 600
+    scope: 2
+    item_model_scope: "minecraft:item/gun/colt_anaconda/base_scope"
+  - type: "magazine_gun"
+    id: "mag_7_1"
+    material: "stone_sword"
+    custom_name: "<gold>Дробовик MAG-7 (Тест 1)"
+    item_model: "minecraft:item/gun/mag_7/base"
+    equip_delay: 3.5
+    ammo_id: "mag_7_magazine"
+    display_ammo_name: "<gray>Тип магазина: <aqua>%s"
+    display_ammo_state: "<gray>Заряжен: %s"
+    display_ammo_unload: "<yellow>[Q] <gray>Отсоединить магазин"
+    display_ammo_state_yes: "<green>Да"
+    display_ammo_state_no: "<red>Нет"
+    shot_sound: "gun.mag_7.shot"
+    load_sound: "gun.mag_7.load"
+    unload_sound: "gun.mag_7.unload"
+    max_ammo: 5
+    ammo: 5
+    spread: 6.0
+    velocity: 2.0
+    shot_delay: 0.1
+    bullet_amount: 1
+    bullet_damage: 1.0
+    without_item_model: "minecraft:item/gun/mag_7/without"
+    item_model_scope: "minecraft:item/gun/mag_7/base_scope"
+    without_item_model_scope: "minecraft:item/gun/mag_7/without_scope"
+    max_damage: 600
+    scope: 2
+sounds:
+  block_hit:
+    canvas: "gun.hit_block.canvas"
+    metal: "gun.hit_block.metal"
+    dirt: "gun.hit_block.dirt"
+    snow: "gun.hit_block.snow"
+    water: "gun.hit_block.water"
+    stone: "gun.hit_block.stone"
+    wood: "gun.hit_block.wood"
+    glass: "gun.hit_block.glass"
+    masonry: "gun.hit_block.masonry"
+    foliage: "gun.hit_block.foliage"
