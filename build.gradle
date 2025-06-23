@@ -5,7 +5,7 @@ plugins {
     id 'com.gradleup.shadow' version '8.3.6'
 }
 
-version = "2025.05.18"
+version = "2025.06.23"
 
 repositories {
     mavenCentral()
