@@ -136,7 +136,7 @@ public final class ScopeListener implements Listener {
 
     private void resetScope(@NonNull final Player player,
                             @NonNull final ItemStack itemStack) {
-        player.clearActivePotionEffects();
+        player.removePotionEffect(PotionEffectType.SLOWNESS);
         ItemStackUtil.setPDC(itemStack, Key.SCOPE, PDT.INTEGER, 0);
         updateScope(itemStack);
     }

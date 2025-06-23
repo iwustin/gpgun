@@ -68,6 +68,12 @@ public final class EquipItemListener implements Listener {
         if(itemStack == null) {
             return;
         }
+
+        Boolean equip = ItemStackUtil.getPDC(itemStack, Key.EQUIP, PDT.BOOLEAN);
+        if(equip == null) {
+            return;
+        }
+
         ItemStackUtil.setPDC(itemStack, Key.EQUIP, PDT.BOOLEAN, false);
     }
 
