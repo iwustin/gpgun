@@ -38,6 +38,7 @@ public final class CommonFactory implements ItemFactory {
         ItemStackUtil.setItemModel(itemStack,  common.getItemModel());
 
         ItemStackUtil.setPDC(itemStack, Key.ID, PDT.STRING, common.getId());
+        ItemStackUtil.setPDC(itemStack, Key.EQUIP, PDT.BOOLEAN, false);
     }
 
     @Nullable
